@@ -1,2 +1,64 @@
-background-image: url('../assets/imagem/1000053841.png'); 
+/* Estilo Minimalista e Sofisticado - Portfólio de Transformação Pessoal */
 
+/* 1. Reset e Box Model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Corpo do Documento e Background */
+body {
+    /* *** LINHA CRUCIAL PARA O BACKGROUND *** */
+    background-image: url('../assets/imagem/1000053841.png'); 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #f8f8f8;
+    
+    /* Tipografia (Estilo Sofisticado) */
+    font-family: 'Georgia', serif; 
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* 3. Layout das Seções (Minimalista) */
+header, section, footer {
+    max-width: 800px;
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* 4. Tipografia e Títulos */
+h1 {
+    font-size: 2.5em;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #444444;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    margin-top: 1.5em;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+/* 5. Rodapé */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 80px;
+    border-top: 1px solid #e0e0e0;
+}
